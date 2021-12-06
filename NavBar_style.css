@@ -1,0 +1,98 @@
+.NavBarContainer{
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    background-color: #305C9F;
+    height: 110px;
+    color: #ffffff;
+    margin: 1px;
+}
+
+.desktop_logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* Navigationsleiste oben/dunkel */
+
+.navtop{
+    height: 40px;
+    background-color: #093A67;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.navtop a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+/*
+.navtop a:hover {
+    color: #dbdbdb;
+}*/
+
+.li_test:hover{
+    background-color: yellow;
+}
+.text_logo_centered{
+    position: relative;
+    top:-6px;
+}
+
+.icons{
+    fill: white;
+}
+
+.icons:hover{
+    fill: #dbdbdb;
+    color: #dbdbdb;
+}
+
+.quicklinks{
+    display: flex;
+    align-items: center;
+}
+/*
+.quicklinks:hover{
+    color:#dbdbdb;
+}*/
+
+.handsome{
+    position: relative;
+    top: 6px;
+    margin-left: 128px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Navigationsleiste unten/heller */
+
+.navbottom{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 145px;
+}
+
+.navbottom_left a{
+    color: white;
+    text-decoration: none;
+    padding: 21px 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbottom_left a:hover {
+    background-color: #093A67;
+    color:#dbdbdb;
+}
+
+.navbottom_right a{
+    padding-right: 20px;
+}
+
