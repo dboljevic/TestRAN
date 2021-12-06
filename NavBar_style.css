@@ -47,10 +47,16 @@
     fill: white;
 }
 
-.icons:hover{
-    fill: #dbdbdb;
-    color: #dbdbdb;
+
+.icons:hover .text_logo_centered{
+    color:green;
+    cursor:crosshair;
 }
+.icons:hover .selected{
+    color:green;
+}
+
+
 
 .quicklinks{
     display: flex;
